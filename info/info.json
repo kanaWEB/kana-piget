@@ -1,0 +1,11 @@
+{
+   "description" : "Use a PiGet command",
+   "name" : "PiGet",
+   "tags" : [
+      "bash",
+      "command",
+      "system",
+      "object"
+   ],
+   "type" : "command"
+}

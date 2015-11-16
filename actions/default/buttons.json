@@ -1,0 +1,14 @@
+{
+	"buttons" : [
+	{
+		"name": "Execute",
+		"color" : "success",
+		"icon" : "glyphicon-send",
+		"command" : "default",
+		"state" : 1,
+		"effect" : {
+			"type" : "state_toggle(this,'red')"
+		}
+	}
+]
+}

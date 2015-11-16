@@ -1,0 +1,10 @@
+<?php
+//var_dump(scandir("/do/"));
+$modules = Functions::getdir("/do");
+
+foreach ($modules as $module) {
+    $data[] = [
+    "text" => $module,
+    "value" => $module
+    ];
+}

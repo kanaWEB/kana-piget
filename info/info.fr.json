@@ -1,0 +1,11 @@
+{
+   "description" : "Lancer une commande PiGet",
+   "name" : "PiGet",
+   "tags" : [
+      "bash",
+      "command",
+      "system",
+      "object"
+   ],
+   "type" : "command"
+}
