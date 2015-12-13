@@ -1,0 +1,36 @@
+{
+		"on": {
+			"command": "sudo /do/",
+			"args": {
+				"module": {
+					"type": "Actions",
+					"trim" : "",
+					"noquotes" : "true"
+				},
+				"oncommand": {
+					"type": "Actions",
+					"modifier":"Prefix",
+					"prefix" : "/",
+					"noquotes" : "true",
+					"trim" : ""
+				}
+			}
+		},
+		"off": {
+			"command": "sudo /do/",
+			"args": {
+				"module": {
+					"type": "Actions",
+					"trim" : "",
+					"noquotes" : "true"
+				},
+				"offcommand": {
+					"type": "Actions",
+					"modifier":"Prefix",
+					"prefix" : "/",
+					"noquotes" : "true",
+					"trim" : ""
+				}
+			}
+		}	
+}
